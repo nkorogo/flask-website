@@ -6,7 +6,7 @@ python:
 
 before_install: pip install simplejson
 
-script: python setup.py test
+script: python run.py test
 
 branches:
   except:
